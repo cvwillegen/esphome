@@ -49,6 +49,11 @@ remote_receiver:
       - logger.log:
           format: "on_drayton: %u %u %u"
           args: ["x.address", "x.channel", "x.command"]
+  on_gobox:
+    then:
+      - logger.log:
+          format: "on_gobox: %d"
+          args: ["x.code"]
   on_jvc:
     then:
       - logger.log:

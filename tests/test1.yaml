@@ -2096,6 +2096,10 @@ binary_sensor:
     coolix:
       first: 0xB2E003
       second: 0xB21F98
+  - platform: remote_receiver
+    name: GoBox test
+    gobox:
+      code: 0xaa55
   - platform: as3935
     name: Storm Alert
   - platform: analog_threshold

@@ -767,6 +767,7 @@ stepper:
     # Optional:
     acceleration: inf
     deceleration: inf
+    rotation: CLOCKWISE
 
 interval:
   interval: 5s

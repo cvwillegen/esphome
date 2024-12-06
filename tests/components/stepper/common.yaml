@@ -7,7 +7,6 @@ stepper:
     max_speed: 250 steps/s
     acceleration: 100 steps/s^2
     deceleration: 200 steps/s^2
-    rotation: CLOCKWISE
 
 switch:
   - platform: template

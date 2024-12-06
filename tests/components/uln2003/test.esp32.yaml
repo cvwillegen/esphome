@@ -16,9 +16,6 @@ esphome:
       - stepper.set_speed:
           id: uln2003_stepper
           speed: 250 steps/s
-      - stepper.set_rotation:
-          id: uln2003_stepper
-          rotation: COUNTERCLOCKWISE
 
 stepper:
   - platform: uln2003
